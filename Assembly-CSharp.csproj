@@ -90,6 +90,7 @@
      <Compile Include="Assets\scripts\TiltWindow.cs" />
      <Compile Include="Assets\scripts\ZurückOnClick.cs" />
      <Compile Include="Assets\scripts\enemy\Enemy.cs" />
+     <Compile Include="Assets\scripts\enemy\Spawn_Enemy.cs" />
      <Compile Include="Assets\scripts\movement\soldier\PlayerMovement.cs" />
      <Compile Include="Assets\scripts\punkte\Score.cs" />
      <Compile Include="Assets\scripts\schiessen\Bullet.cs" />
