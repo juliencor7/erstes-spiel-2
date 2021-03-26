@@ -32,7 +32,7 @@ public class PlayerLeben : MonoBehaviour
 
 
 
-    void OnTriggerEnter2D(Collider2D collision)
+    /* void OnTriggerEnter2D(Collider2D collision)
     {
 
         if (collision.CompareTag("Enemy"))
@@ -40,6 +40,19 @@ public class PlayerLeben : MonoBehaviour
             TakeDamage(20);
         }
 
+    } */
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Tag: " + collision.transform.tag);
+        if (collision.transform.tag == "Enemy")
+        {
+            Debug.Log("hitted");
+            //TODO Gegner vielleicht despawnen mit einem effekt?
+            TakeDamage(20);
+        } else {
+            Debug.Log("Not");
+        }
     }
 
 
@@ -51,6 +64,7 @@ public class PlayerLeben : MonoBehaviour
 
     public void PlayerDies()
     {
+        //TODO es fehlen noch koordinaten wo der grabstien gespawnt werden soll
         Instantiate(grabstein);
         
     }

@@ -20,14 +20,11 @@ public class Bullet : MonoBehaviour
 
         
 
-        if (enemy.gameObject.name != "Player")
+        if (hitInfo.gameObject.name != "Player")
         {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 5f);
             Destroy(gameObject);
-            Debug.Log("getroffen und zerstoert");
-        } else {
-            Debug.Log("getroffen aber ist ein player");
         }
         
         
