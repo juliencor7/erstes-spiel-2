@@ -6,6 +6,7 @@ TagManager:
   tags:
   - zombie
   - Enemy
+  - Grabstein
   layers:
   - Default
   - TransparentFX
