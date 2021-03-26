@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{d832bfb8-1e9c-a8c7-68e8-9ec62e332222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{c19318bb-9b14-2b7d-b13e-de13d35c72ee}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{2182daec-ac5d-c360-170a-b6718dea4430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{d638eb71-e774-1d87-bbd4-d5903802d46e}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{d832bfb8-1e9c-a8c7-68e8-9ec62e332222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d832bfb8-1e9c-a8c7-68e8-9ec62e332222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c19318bb-9b14-2b7d-b13e-de13d35c72ee}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c19318bb-9b14-2b7d-b13e-de13d35c72ee}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2182daec-ac5d-c360-170a-b6718dea4430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2182daec-ac5d-c360-170a-b6718dea4430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d638eb71-e774-1d87-bbd4-d5903802d46e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d638eb71-e774-1d87-bbd4-d5903802d46e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

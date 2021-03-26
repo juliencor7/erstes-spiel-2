@@ -19,11 +19,11 @@ public class Enemy : MonoBehaviour
     }
         void Die()
         {
-        Score.instance.PunkteAddieren(100);
+            Score.instance.PunkteAddieren(100);
 
 
             Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject); 
+            Destroy(gameObject); 
         }
         
      

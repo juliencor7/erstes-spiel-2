@@ -34,14 +34,11 @@ public class PlayerLeben : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("col enter");
+
         if (collision.CompareTag("Enemy"))
         {
-            Debug.Log("Enemy beruehrt");
             TakeDamage(20);
-
         }
-
 
     }
 
@@ -57,8 +54,4 @@ public class PlayerLeben : MonoBehaviour
         Instantiate(grabstein);
         
     }
-
-
-
-
 }
